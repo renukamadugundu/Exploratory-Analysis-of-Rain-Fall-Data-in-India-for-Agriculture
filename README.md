@@ -299,3 +299,60 @@ else:
 ✔ Project Report
 ✔ PPT Presentation
 
+
+Team Details
+Team ID	LTVIP2026TMIDS71000
+Team Leader	Kakerla Vishnu Priya
+Team Member	 Renuka Madugundu
+Team Member  Geethanjali Ediga
+Team Member	Golla Manasa
+
+
+📁 Overall Project Structure
+Rainfall_Prediction_Project/
+│
+├── IBM_Endpoint_Deploy/
+│   │
+│   ├── templates/
+│   │   ├── index.html
+│   │   ├── chance.html
+│   │   └── noChance.html
+│   │
+│   ├── app.py
+│   ├── Rainfall.pkl
+│   ├── scaler.pkl
+│   ├── encoder.pkl
+│   ├── imputer.pkl
+│   └── requirements.txt
+│
+├── Rainfall_Prediction_Local/
+│   │
+│   ├── templates/
+│   │   ├── index.html
+│   │   ├── chance.html
+│   │   └── noChance.html
+│   │
+│   ├── app.py
+│   ├── Rainfall.pkl
+│   ├── scaler.pkl
+│   ├── encoder.pkl
+│   ├── imputer.pkl
+│   └── requirements.txt
+│
+├── Rainfall_prediction.ipynb
+└── Dataset/
+    └── rainfall_data.csv
+
+
+    Technologies Used
+Category	        Technology
+Language:	         Python
+ML Libraries:	     NumPy, Pandas, Scikit-learn
+Visualization:	     Matplotlib, Seaborn
+Model:	             Random Forest Regressor
+Web Framework:	      Flask
+API:	            OpenWeatherMap API
+Frontend:	            HTML, CSS
+Model Serialization:	  Joblib
+Environment:	           Jupyter Notebook, VS Code
+
